@@ -290,6 +290,18 @@ com.providentia.campus/
 
 ---
 
+## 📱 Descargar APK (Demo)
+
+Para probar la aplicación en tu dispositivo Android:
+
+1.  Ve a la pestaña **Actions** en este repositorio.
+2.  Haz clic en el último flujo de trabajo **Android Build**.
+3.  Baja a la sección **Artifacts**.
+4.  Descarga el archivo `providentia-campus-debug`.
+5.  Descomprime el zip e instala el `app-debug.apk` en tu teléfono.
+
+> **Nota**: Al ser una versión de depuración (debug), es posible que Google Play Protect muestre una advertencia. Es seguro instalarla para pruebas.
+
 ## 🧪 Testing
 
 ### Niveles de Testing
