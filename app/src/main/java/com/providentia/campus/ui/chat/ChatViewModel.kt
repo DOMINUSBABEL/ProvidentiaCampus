@@ -70,10 +70,12 @@ class ChatViewModel @Inject constructor() : ViewModel() {
             _uiState.update { it.copy(isTyping = true) }
             delay(2000)
             
+            val currentDate = java.text.SimpleDateFormat("dd/MM/yyyy", java.util.Locale.getDefault()).format(java.util.Date())
+            
             val summary = buildString {
                 append("INFORME CLÍNICO PRELIMINAR\n")
                 append("Generado por: Providentia AI Assistant\n")
-                append("Fecha: ${java.time.LocalDate.now()}\n\n")
+                append("Fecha: $currentDate\n\n")
                 
                 append("RESUMEN DE LA SESIÓN:\n")
                 append("El usuario ha interactuado con el asistente emocional. ")
