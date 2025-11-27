@@ -8,6 +8,7 @@ import com.providentia.campus.ui.auth.LoginScreen
 import com.providentia.campus.ui.home.HomeScreen
 import com.providentia.campus.ui.onboarding.WelcomeScreen
 import com.providentia.campus.ui.screening.ScreeningScreen
+import com.providentia.campus.ui.chat.ChatScreen
 
 @Composable
 fun ProvidentiaNavGraph() {
@@ -46,7 +47,18 @@ fun ProvidentiaNavGraph() {
             )
         }
         composable("home") {
-            HomeScreen()
+            HomeScreen(
+                onNavigateToChat = {
+                    navController.navigate("chat")
+                }
+            )
+        }
+        composable("chat") {
+            ChatScreen(
+                onBackPressed = {
+                    navController.popBackStack()
+                }
+            )
         }
     }
 }

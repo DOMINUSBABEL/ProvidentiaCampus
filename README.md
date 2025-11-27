@@ -290,6 +290,13 @@ com.providentia.campus/
 
 ---
 
+### Funcionalidades Clave (Fase 1 + 2)
+- **Onboarding & Triage**: Tamizaje clínico validado.
+- **Asistente AI (Therapist Bot)**:
+    - Chat conversacional para desahogo emocional (simulado en MVP).
+    - **Generación de Informes**: Crea un resumen clínico de la sesión para facilitar la derivación a terapeutas humanos.
+- **Ruta de Aprendizaje**: Módulos de autoayuda (en desarrollo).
+
 ## 📱 Descargar APK (Demo)
 
 Para probar la aplicación en tu dispositivo Android:
