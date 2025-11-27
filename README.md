@@ -378,10 +378,8 @@ Para probar la aplicación en tu dispositivo Android:
 Este es un proyecto de código privado en Fase 1. Una vez alcanzada la estabilidad de producto, se evaluará la apertura de código bajo licencia open-source (probablemente GPL-3.0).
 
 ### Equipo Actual
-- **Product Manager**: [Nombre]
-- **Tech Lead Android**: [Nombre]
-- **Psicólogo Clínico**: [Nombre]
-- **UX/UI Designer**: [Nombre]
+- **Juan Gómez**: Desarrollador Full Stack y Asesor Jurídico.
+- **César Garzón**: Desarrollador Full Stack de Salud.
 
 ### Contacto
 - **Email**: contacto@providentiamindhealth.com
